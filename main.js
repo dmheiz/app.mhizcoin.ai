@@ -1,5 +1,5 @@
 window.onload = function() {
     setTimeout(function() {
-        window.location.href = "index.php"; 
+        window.location.href = "home.html"; 
     }, 45000);
   };
