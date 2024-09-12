@@ -8,10 +8,11 @@ body {
     align-items: center;
     background-color: #f0f0f0;
 }
-
+*{margin:0;
+  width:fit-content;
+ }
 /* Header Styles */
 header {
-    width: 100%;
     padding: 20px;
     background-color: black;
     text-align: center;
@@ -34,7 +35,7 @@ header h1 {
     margin:200px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: auto;
     text-align: center;
 }
 form label {
