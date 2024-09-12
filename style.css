@@ -16,7 +16,6 @@ header {
     background-color: black;
     text-align: center;
     border-radius: 0 0 60% 60%;
-    margin-right: 10px;
     display:flex;
     justify-content: space-around;
 }
@@ -29,7 +28,7 @@ header h1 {
 }
 
 /* Signup Form Styles */
-.signup-container {
+.signupn-container {
     background-color: white;
     padding: 40px;
     margin:100px auto;
