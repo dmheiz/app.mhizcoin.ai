@@ -12,14 +12,17 @@ body {
 /* Header Styles */
 header {
     width: 100%;
-    padding: 18px;
+    padding: 20px 0 20px 0px;
     background-color: black;
     text-align: center;
-    border-radius: 0 100% 100% 0;
+    border-radius: 0 5% 5% 0;
+    margin-right: 10px;
 }
 
 .logo {
-    height: 80px;
+    height: 60px;
+    position: inherit;
+    left: 0;
 }
 
 /* Signup Form Styles */
