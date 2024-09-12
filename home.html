@@ -3,52 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="cs/style.css">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="MhizCoin_bot" data-size="small" data-radius="10" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
-<script type="text/javascript">
-  function onTelegramAuth(user) {
-    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
-  }
-</script>	<style>
-		body{
-			background-color:white;
-		}
-		.header_title{
-			text-align:center;
-		}
-		#blue{
-			text-align:center;
-			margin-top:300px;
-		}
-		#note{
-			text-align:center;
-			margin-top: 300px;
-			font-weight: bold;
-			font-family: arial;
-	</style>
-<header>
-      <div class="greeting">
-        <h3  id="greeting" class="welcome"></h3>
-      </div>
-      <h3 class="header_title">MhizCoin AI</h3>
-  
-<div id="note">
-	<span>
-		The MHIZ Group Of Companies, 
-		Offshore road, Above Zenith Bank, Beside Buk,
-		Kano,
-		+234-7041785865,+234-8025294519
-		dmhizgoc@gmail.com
-		<br>
-		<a href="mailto:dmhizgoc@gmail.com">Mail to The MHIZ GOC</a>
-	</span>
-</div>
-<div id="blue">
-	<p align=center>The MHIZ Group Of Companies</p>
-<p align=center><small>Copyrights 2024 by <a href="http://wa.me/7041785865">D MHIZ GOC</a> </small></p>
-</div>
+    <!-- Logo Section -->
+    <header>
+        <img src="images/logo.png" alt="App Logo" class="logo">
+    </header>
+
+    <!-- Signup Form Section -->
+    <main>
+        <section class="signup-container">
+            <h1>Sign Up</h1>
+            <!-- Telegram Login Button -->
+            <script async src="https://telegram.org/js/telegram-widget.js?19"
+                    data-telegram-login="MhizCoin_bot"  
+                    data-size="large"
+                    data-auth-url="https://app-mhizcoin-ai.vercel.app" 
+                    data-request-access="write"></script>
+                    
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MhizCoin AI. All rights reserved.</p>
+    </footer>
 </body>
 </html>
