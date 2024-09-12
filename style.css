@@ -7,37 +7,44 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f0f0f0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-*{margin:0;
-  width:fit-content;
- }
+
 /* Header Styles */
 header {
+    width: 100%;
     padding: 20px;
     background-color: black;
     text-align: center;
     border-radius: 0 0 60% 60%;
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center; /* Center align logo and title */
+    align-items: center;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
 }
+
 header h1 {
     color: white;
+    margin: 0; /* Remove default margin */
 }
+
 .logo {
     height: 60px;
-    position: inherit;
+    margin-right: 15px; /* Space between logo and title */
 }
 
 /* Signup Form Styles */
 .signup-container {
-    background-color: transparent;
+    background-color: white;
     padding: 40px;
-    margin:200px auto;
+    margin: 100px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: auto;
+    width: 90%; /* Use percentage width for responsiveness */
+    max-width: 400px; /* Set a maximum width */
     text-align: center;
 }
+
 form label {
     display: block;
     margin: 10px 0 5px;
@@ -73,6 +80,7 @@ footer {
     padding: 20px;
     color: black;
     text-align: center;
-    margin-top:100%;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
 }
