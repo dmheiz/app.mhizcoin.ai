@@ -15,32 +15,30 @@ header {
     padding: 20px;
     background-color: black;
     text-align: center;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0 0 60% 60%;
     margin-right: 10px;
 }
-
+header h1 {
+    color: white;
+    margin-bottom: 20px;
+    position:fixed;
+    right:0;
+}
 .logo {
     height: 60px;
     position: inherit;
-    left: 0;
 }
 
 /* Signup Form Styles */
 .signup-container {
     background-color: white;
     padding: 40px;
-    margin:50px auto;
+    margin:100px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
 }
-
-.signup-container h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
 form label {
     display: block;
     margin: 10px 0 5px;
