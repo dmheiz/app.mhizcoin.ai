@@ -38,8 +38,7 @@ header h1 {
     padding: 40px;
     margin: 100px auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Use percentage width for responsiveness */
+    width: 100% auto; /* Use percentage width for responsiveness */
     max-width: 500px; /* Set a maximum width */
     text-align: center;
 }
