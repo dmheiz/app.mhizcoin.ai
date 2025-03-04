@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Logo Section -->
+    <header>
+        <img src="logo.png" alt="App Logo" class="logo">
+                    <h1>MhizCoin AI</h1>
+    </header>
 
+    <!-- Signup Form Section -->
+    <main>
+        <section class="signup-container">
+            <!-- Telegram Login Button -->
+            <script async src="https://telegram.org/js/telegram-widget.js?19"
+                    data-telegram-login="MhizCoin_bot" 
+                    data-size="large"
+                    data-auth-url="https://app-mhizcoin-ai.vercel.app/auth/telegram"
+                    data-request-access="write"></script>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 D MHIZ GOC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
